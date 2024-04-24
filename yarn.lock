@@ -1132,6 +1132,13 @@
     tslib "^2.3.0"
     yargs-parser "21.1.1"
 
+"@nx/gradle@^18.3.3":
+  version "18.3.3"
+  resolved "https://registry.yarnpkg.com/@nx/gradle/-/gradle-18.3.3.tgz#3f0498d37e68c6f1840dec57967c4f090f17c462"
+  integrity sha512-htH7R9A0jbhl5QnNjlp98ukaWm24qvhMxYlPj/74RRBiSLS8MVAeSyRpSeJjT1alPbyYGHDKLRzeLK6tG5swZw==
+  dependencies:
+    "@nx/devkit" "18.3.3"
+
 "@nx/js@18.3.3":
   version "18.3.3"
   resolved "https://registry.yarnpkg.com/@nx/js/-/js-18.3.3.tgz#977968160d6edc11f320bc0f654b52d36a9101ac"
@@ -2295,6 +2302,11 @@ picomatch@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
+
+prettier@^3.2.5:
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-3.2.5.tgz#e52bc3090586e824964a8813b09aba6233b28368"
+  integrity sha512-3/GWa9aOC0YeD7LUfvOG2NiDyhOWRvt1k+rcKhOuYnMY24iiCphgneUfJDyFXd6rZCAnuLBv6UeAULtrhT/F4A==
 
 pretty-format@^29.7.0:
   version "29.7.0"

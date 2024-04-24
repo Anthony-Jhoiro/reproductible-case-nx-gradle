@@ -1,14 +1,20 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*",
-      "sharedGlobals"
-    ],
-    "production": [
-      "default"
-    ],
+    "default": ["{projectRoot}/**/*", "sharedGlobals"],
+    "production": ["default"],
     "sharedGlobals": []
   },
-  "nxCloudAccessToken": "NDNlMGE1ODAtNTY3My00Yzc4LTlhMWUtYjUzY2JjZjY1OTgzfHJlYWQtd3JpdGU="
+  "nxCloudAccessToken": "MTUyYWYxZjQtZWYwYy00ZjMxLTk5YTEtNzdhZWY5MmZiZjVjfHJlYWQtd3JpdGU=",
+  "plugins": [
+    {
+      "plugin": "@nx/gradle",
+      "options": {
+        "testTargetName": "test",
+        "classesTargetName": "classes",
+        "buildTargetName": "build"
+      }
+    }
+  ],
+  "defaultBase": "main"
 }

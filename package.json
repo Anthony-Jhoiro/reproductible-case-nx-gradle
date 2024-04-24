@@ -6,8 +6,11 @@
   "private": true,
   "dependencies": {},
   "devDependencies": {
+    "@nx/gradle": "^18.3.3",
     "@nx/js": "18.3.3",
     "@nx/workspace": "18.3.3",
-    "nx": "18.3.3"
-  }
+    "nx": "18.3.3",
+    "prettier": "^3.2.5"
+  },
+  "nx": {}
 }
